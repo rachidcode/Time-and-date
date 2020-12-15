@@ -1,0 +1,65 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+  display:flex; 
+  justify-content: center;
+  background: url(https://tpe-voyagedansletemps.e-monsite.com/medias/images/sablier.jpg);
+  height:1000px;
+  align-items:center;
+  flex-direction:column;
+  min-width: 350px;
+  
+}
+
+.colon {
+  position:relative;
+  bottom:14px;
+}
+
+span {
+  text-align:center;
+  font-size:150px;
+ 
+  color:rgb(248, 246, 246);
+  
+  font-weight:700;
+}
+
+@media screen and (max-width: 924px) {
+  span {
+    font-size:100px;
+  }
+  
+  .colon {
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  span {
+    font-size:70px;
+  }
+  .colon {
+    bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 469px) {
+  span {
+    font-size:60px;
+  }
+  .colon {
+    bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  span {
+    font-size:50px;
+  }
+  .colon {
+    bottom: 4px;
+  }
+}
